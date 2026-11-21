@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Night-mode color overrides -->
+    <color name="status_bar_color">#08121F</color>
+    <color name="nav_bar_color">#08121F</color>
+    <color name="window_background">#0F1C2E</color>
+    <color name="splash_background">#0D2B55</color>
+</resources>

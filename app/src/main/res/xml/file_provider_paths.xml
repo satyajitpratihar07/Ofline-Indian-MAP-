@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-files-path name="offline_maps" path="maps/" />
+    <files-path name="internal_maps" path="maps/" />
+    <cache-path name="cache_maps" path="tiles/" />
+</paths>

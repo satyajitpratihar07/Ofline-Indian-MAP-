@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============================= -->
+    <!-- App Identity                  -->
+    <!-- ============================= -->
+    <string name="app_name">OfflineNav</string>
+    <string name="app_tagline">Navigate Anywhere, Online or Off</string>
+    <string name="app_version_prefix">Version</string>
+
+    <!-- ============================= -->
+    <!-- Onboarding                    -->
+    <!-- ============================= -->
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_get_started">Get Started</string>
+
+    <string name="onboarding_page1_title">Navigate Offline</string>
+    <string name="onboarding_page1_desc">Download maps and navigate without an internet connection. Works anywhere in the world.</string>
+
+    <string name="onboarding_page2_title">Turn-by-Turn Guidance</string>
+    <string name="onboarding_page2_desc">Clear voice instructions guide you every step of the way. Never miss a turn.</string>
+
+    <string name="onboarding_page3_title">Save Your Places</string>
+    <string name="onboarding_page3_desc">Star your home, work, and favourite destinations for instant access anytime.</string>
+
+    <string name="onboarding_page4_title">Location Permission</string>
+    <string name="onboarding_page4_desc">OfflineNav needs access to your location to show your position on the map and provide navigation directions.</string>
+    <string name="onboarding_allow_location">Allow Location Access</string>
+
+    <!-- ============================= -->
+    <!-- Home Screen                   -->
+    <!-- ============================= -->
+    <string name="home_search_hint">Search for a place or address</string>
+    <string name="home_recent_destinations">Recent</string>
+    <string name="home_saved_places">Saved Places</string>
+    <string name="home_downloads">Downloads</string>
+    <string name="home_start_navigation">Start Navigation</string>
+    <string name="home_my_location">My Location</string>
+    <string name="home_eta_label">ETA</string>
+    <string name="home_distance_label">Distance</string>
+    <string name="home_no_saved_places">No saved places yet</string>
+    <string name="home_no_recent">No recent destinations</string>
+
+    <!-- ============================= -->
+    <!-- Map Screen                    -->
+    <!-- ============================= -->
+    <string name="map_recenter">Re-center map</string>
+    <string name="map_zoom_in">Zoom in</string>
+    <string name="map_zoom_out">Zoom out</string>
+    <string name="map_compass">Compass</string>
+    <string name="map_layers">Map layers</string>
+    <string name="map_traffic">Traffic</string>
+    <string name="map_satellite">Satellite</string>
+    <string name="map_street">Street</string>
+    <string name="map_loading">Loading map…</string>
+    <string name="map_offline_mode">Offline Mode</string>
+    <string name="map_no_offline_data">No offline map data for this area</string>
+    <string name="map_download_region">Download this area</string>
+    <string name="map_gps_searching">Searching for GPS signal…</string>
+    <string name="map_gps_accuracy">Accuracy: %1$s m</string>
+
+    <!-- ============================= -->
+    <!-- Search                        -->
+    <!-- ============================= -->
+    <string name="search_hint">Where to?</string>
+    <string name="search_no_results">No results found</string>
+    <string name="search_searching">Searching…</string>
+    <string name="search_history">Recent Searches</string>
+    <string name="search_nearby">Nearby</string>
+    <string name="search_clear">Clear search</string>
+    <string name="search_set_as_home">Set as Home</string>
+    <string name="search_set_as_work">Set as Work</string>
+    <string name="search_save_place">Save place</string>
+    <string name="search_navigate_here">Navigate here</string>
+    <string name="search_add_waypoint">Add as waypoint</string>
+
+    <!-- ============================= -->
+    <!-- Route Preview                 -->
+    <!-- ============================= -->
+    <string name="route_preview_title">Choose Route</string>
+    <string name="route_fastest">Fastest</string>
+    <string name="route_shortest">Shortest</string>
+    <string name="route_avoid_tolls">Avoid Tolls</string>
+    <string name="route_avoid_highways">Avoid Highways</string>
+    <string name="route_via">Via %1$s</string>
+    <string name="route_start_navigation">Start</string>
+    <string name="route_add_stop">Add stop</string>
+    <string name="route_overview">Route overview</string>
+    <string name="route_steps">Steps</string>
+
+    <!-- ============================= -->
+    <!-- Navigation Screen             -->
+    <!-- ============================= -->
+    <string name="nav_arriving">Arriving</string>
+    <string name="nav_arrived">You have arrived!</string>
+    <string name="nav_rerouting">Rerouting…</string>
+    <string name="nav_off_route">Off route</string>
+    <string name="nav_exit_navigation">Exit Navigation</string>
+    <string name="nav_exit_confirm">Are you sure you want to exit navigation?</string>
+    <string name="nav_mute">Mute voice</string>
+    <string name="nav_unmute">Unmute voice</string>
+    <string name="nav_overview">Overview</string>
+    <string name="nav_speedometer">Speed</string>
+    <string name="nav_speed_limit">Speed limit</string>
+    <string name="nav_eta">ETA: %1$s</string>
+    <string name="nav_distance_remaining">%1$s remaining</string>
+    <string name="nav_time_remaining">%1$s remaining</string>
+    <string name="nav_in_distance">In %1$s</string>
+    <string name="nav_then">Then</string>
+    <string name="nav_notification_title">OfflineNav — Navigating</string>
+    <string name="nav_notification_channel">Turn-by-Turn Navigation</string>
+    <string name="nav_notification_channel_desc">Shows navigation instructions while navigating</string>
+
+    <!-- ============================= -->
+    <!-- Downloads Screen              -->
+    <!-- ============================= -->
+    <string name="downloads_title">Offline Maps</string>
+    <string name="downloads_browse">Browse regions</string>
+    <string name="downloads_my_downloads">Downloaded Maps</string>
+    <string name="downloads_in_progress">In Progress</string>
+    <string name="downloads_available">Available</string>
+    <string name="downloads_no_downloads">No maps downloaded</string>
+    <string name="downloads_no_downloads_hint">Download maps to navigate offline</string>
+    <string name="downloads_start">Download</string>
+    <string name="downloads_pause">Pause</string>
+    <string name="downloads_resume">Resume</string>
+    <string name="downloads_cancel">Cancel</string>
+    <string name="downloads_delete">Delete map</string>
+    <string name="downloads_delete_confirm">Delete %1$s offline map?</string>
+    <string name="downloads_update">Update</string>
+    <string name="downloads_up_to_date">Up to date</string>
+    <string name="downloads_progress">%1$d%%</string>
+    <string name="downloads_size">%1$s</string>
+    <string name="downloads_downloaded_on">Downloaded %1$s</string>
+    <string name="downloads_storage_used">Storage used: %1$s</string>
+    <string name="downloads_notification_title">Downloading map</string>
+    <string name="downloads_notification_channel">Map Downloads</string>
+    <string name="downloads_notification_channel_desc">Shows progress for offline map downloads</string>
+    <string name="downloads_complete">Download complete</string>
+    <string name="downloads_failed">Download failed</string>
+    <string name="downloads_failed_retry">Retry</string>
+    <string name="downloads_wifi_only">Download on Wi-Fi only</string>
+
+    <!-- ============================= -->
+    <!-- Saved Places                  -->
+    <!-- ============================= -->
+    <string name="saved_places_title">Saved Places</string>
+    <string name="saved_place_home">Home</string>
+    <string name="saved_place_work">Work</string>
+    <string name="saved_place_add">Add place</string>
+    <string name="saved_place_edit">Edit</string>
+    <string name="saved_place_delete">Remove</string>
+    <string name="saved_place_delete_confirm">Remove %1$s from saved places?</string>
+    <string name="saved_place_name_hint">Place name</string>
+    <string name="saved_place_address_hint">Address</string>
+    <string name="saved_place_notes_hint">Notes (optional)</string>
+    <string name="saved_place_save">Save</string>
+    <string name="saved_place_no_places">No saved places yet.\nTap + to add a place.</string>
+
+    <!-- ============================= -->
+    <!-- History                       -->
+    <!-- ============================= -->
+    <string name="history_title">History</string>
+    <string name="history_clear_all">Clear all</string>
+    <string name="history_clear_confirm">Clear all navigation history?</string>
+    <string name="history_no_history">No navigation history yet</string>
+    <string name="history_navigate_again">Navigate again</string>
+
+    <!-- ============================= -->
+    <!-- Settings                      -->
+    <!-- ============================= -->
+    <string name="settings_title">Settings</string>
+
+    <string name="settings_section_navigation">Navigation</string>
+    <string name="settings_route_preference">Route preference</string>
+    <string name="settings_avoid_tolls">Avoid tolls</string>
+    <string name="settings_avoid_highways">Avoid highways</string>
+    <string name="settings_avoid_ferries">Avoid ferries</string>
+    <string name="settings_route_profile">Transportation mode</string>
+    <string name="settings_route_profile_driving">Driving</string>
+    <string name="settings_route_profile_walking">Walking</string>
+    <string name="settings_route_profile_cycling">Cycling</string>
+    <string name="settings_keep_screen_on">Keep screen on while navigating</string>
+    <string name="settings_auto_reroute">Auto reroute when off route</string>
+
+    <string name="settings_section_map">Map</string>
+    <string name="settings_map_style">Map style</string>
+    <string name="settings_map_orientation">Map orientation</string>
+    <string name="settings_map_orientation_north_up">North up</string>
+    <string name="settings_map_orientation_direction">Direction of travel</string>
+    <string name="settings_show_speed_limit">Show speed limit</string>
+    <string name="settings_show_traffic">Show traffic (requires internet)</string>
+    <string name="settings_map_detail">Map detail level</string>
+
+    <string name="settings_section_display">Display</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">Follow system</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_units">Units</string>
+    <string name="settings_units_metric">Metric (km)</string>
+    <string name="settings_units_imperial">Imperial (miles)</string>
+    <string name="settings_language">Language</string>
+
+    <string name="settings_section_voice">Voice &amp; Sound</string>
+    <string name="settings_voice_guidance">Voice guidance</string>
+    <string name="settings_voice_volume">Voice volume</string>
+    <string name="settings_voice_language">Voice language</string>
+    <string name="settings_voice_speed">Speech speed</string>
+
+    <string name="settings_section_storage">Storage</string>
+    <string name="settings_manage_storage">Manage storage</string>
+    <string name="settings_storage_used">%1$s used</string>
+    <string name="settings_clear_cache">Clear cache</string>
+    <string name="settings_clear_cache_confirm">Clear tile cache?</string>
+    <string name="settings_download_on_wifi">Download only on Wi-Fi</string>
+
+    <string name="settings_section_about">About</string>
+    <string name="settings_about">About OfflineNav</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_terms">Terms of Service</string>
+    <string name="settings_open_source">Open Source Licenses</string>
+    <string name="settings_rate_app">Rate the app</string>
+    <string name="settings_feedback">Send feedback</string>
+
+    <!-- ============================= -->
+    <!-- Voice Settings                -->
+    <!-- ============================= -->
+    <string name="voice_settings_title">Voice &amp; Sound</string>
+    <string name="voice_settings_guidance_on">Voice guidance on</string>
+    <string name="voice_settings_guidance_off">Voice guidance off</string>
+    <string name="voice_settings_test">Test voice</string>
+    <string name="voice_settings_test_message">In 500 metres, turn right onto Main Street.</string>
+
+    <!-- ============================= -->
+    <!-- Storage Screen                -->
+    <!-- ============================= -->
+    <string name="storage_title">Storage</string>
+    <string name="storage_offline_maps">Offline maps</string>
+    <string name="storage_cache">Tile cache</string>
+    <string name="storage_other">Other data</string>
+    <string name="storage_total">Total</string>
+    <string name="storage_free">Free space</string>
+    <string name="storage_clear_cache">Clear cache</string>
+    <string name="storage_delete_all_maps">Delete all maps</string>
+    <string name="storage_delete_all_confirm">Delete all downloaded maps? This cannot be undone.</string>
+
+    <!-- ============================= -->
+    <!-- About Screen                  -->
+    <!-- ============================= -->
+    <string name="about_title">About</string>
+    <string name="about_version">Version %1$s (%2$s)</string>
+    <string name="about_description">OfflineNav is a free, offline-first GPS navigation application powered by OpenStreetMap data.</string>
+    <string name="about_data_source">Map data © OpenStreetMap contributors</string>
+    <string name="about_built_with">Built with MapLibre &amp; Jetpack Compose</string>
+    <string name="about_copyright">© 2024 OfflineNav</string>
+
+    <!-- ============================= -->
+    <!-- Permissions                   -->
+    <!-- ============================= -->
+    <string name="permission_location_title">Location Permission Required</string>
+    <string name="permission_location_message">OfflineNav needs location access to show your position and provide turn-by-turn directions.</string>
+    <string name="permission_location_background_title">Background Location</string>
+    <string name="permission_location_background_message">Allow OfflineNav to access your location in the background to continue navigation when the screen is off.</string>
+    <string name="permission_grant">Grant Permission</string>
+    <string name="permission_deny">Not Now</string>
+    <string name="permission_open_settings">Open Settings</string>
+    <string name="permission_denied_message">Location permission denied. Some features may not work correctly.</string>
+
+    <!-- ============================= -->
+    <!-- Common / Shared               -->
+    <!-- ============================= -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="retry">Retry</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_gps_unavailable">GPS unavailable</string>
+    <string name="error_offline_map_missing">No offline map for this area</string>
+    <string name="km">km</string>
+    <string name="miles">mi</string>
+    <string name="meters">m</string>
+    <string name="feet">ft</string>
+    <string name="km_per_hour">km/h</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="minutes_abbr">min</string>
+    <string name="hours_abbr">h</string>
+</resources>

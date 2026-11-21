@@ -1,0 +1,31 @@
+{
+  "version": 8,
+  "name": "OpenStreetMap India Dark",
+  "sources": {
+    "osm-tiles": {
+      "type": "raster",
+      "tiles": [
+        "https://a.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
+        "https://b.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
+        "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+      ],
+      "tileSize": 256,
+      "attribution": "© OpenStreetMap contributors"
+    }
+  },
+  "layers": [
+    {
+      "id": "osm-tiles-layer",
+      "type": "raster",
+      "source": "osm-tiles",
+      "minzoom": 0,
+      "maxzoom": 19,
+      "paint": {
+        "raster-brightness-max": 0.75,
+        "raster-brightness-min": 0.08,
+        "raster-contrast": 0.25,
+        "raster-saturation": -0.5
+      }
+    }
+  ]
+}

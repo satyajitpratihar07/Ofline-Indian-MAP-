@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme (dark) — overrides light theme entries -->
+    <style name="Theme.OfflineNav" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/nav_bar_color</item>
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <!-- Window background -->
+        <item name="android:windowBackground">@color/window_background</item>
+        <!-- Light icons = false for dark background -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+</resources>
